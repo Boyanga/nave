@@ -13,7 +13,6 @@ public class Bala : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        Debug.Log(col.gameObject.name);
         Destroy(gameObject);  
     }   
     void Update()

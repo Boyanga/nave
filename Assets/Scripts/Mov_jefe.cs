@@ -31,7 +31,7 @@ public class Mov_jefe : MonoBehaviour
         {
             Instantiate(Disparo_M_Prefab, Spawn_bala.position, Disparo_M_Prefab.transform.rotation);
             tiempo = 0;
-            tDisparo =tDisparo +1;
+            tDisparo = tDisparo +1;
         }
 
         if (tDisparo > 1)
